@@ -1,2 +1,4 @@
 # Automatically excludes anything outside this folder
 /should-be-included/*
+# Include the validation script
+validate_sparse.sh
