@@ -7,4 +7,4 @@ before_install:
 
 script:
 # Validate that the sparse checkout worked
-- validate_sparse.sh
+- ./validate_sparse.sh
