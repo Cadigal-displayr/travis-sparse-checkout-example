@@ -1,0 +1,2 @@
+# Automatically excludes anything outside this folder
+/should-be-included/*
