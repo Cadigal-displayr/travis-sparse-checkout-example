@@ -1,0 +1,10 @@
+git:
+  sparse_checkout: .travis-sparse-checkout.txt
+
+before_install:
+# List all files
+- find .
+
+script:
+# Validate that the sparse checkout worked
+- validate_sparse.sh
